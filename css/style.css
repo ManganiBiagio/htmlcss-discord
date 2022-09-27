@@ -4,24 +4,25 @@
     padding: 0;
 }
 
+:root{
+    --celeste-background-color: #3161E0;
+}
+
 
 /* ------------------------------------ */
 /* nav */
 nav{
-    background-color: yellow;
+    background-color: var(--celeste-background-color);
     width: 920px;
     margin: auto;
     display: flex;
     padding: .5rem 1rem;
 }
 .container-nav{
-    background-color: aquamarine;
-    padding: 1rem 0;
+    background-color: var(--celeste-background-color);
+    padding: 1rem 0 .5rem;
 }
- nav :not(:nth-child(2)){
-    min-width: 10rem;
 
- }
 
  nav :nth-child(2){
     flex-grow: 1;
@@ -33,8 +34,18 @@ nav{
  }
 /* ------------------------------------ */
 
+.logo-img{
+    width: 5rem;
+}
+
 .container{
     padding: 3rem 0;
+}
+
+.jumbo-img{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box-piccolo{
