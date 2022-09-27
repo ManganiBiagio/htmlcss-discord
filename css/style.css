@@ -229,14 +229,26 @@ footer .container.black{
     text-decoration: none;
     display: block;
     font-size: 0.8rem;
+    padding-bottom: .5rem;
+    
+    
 }
 .txt-viola{
     color: var(--viola-bottoni);  
 }
 
-.spaziature-footer>*{
-    padding-bottom: .5rem;
+.box-social{
+    align-self: stretch;
 }
+
+.box-social>*{
+    padding: 1rem 0;
+}
+
+
+
+
+
 
 
 
