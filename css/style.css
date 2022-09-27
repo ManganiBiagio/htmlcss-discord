@@ -6,6 +6,15 @@
 
 :root{
     --celeste-background-color: #3161E0;
+    --nero-bottoni:#23272A;
+    --grigio-box:#F6F6F6;
+    --viola-bottoni:#8EA1E1;
+}
+
+h2{
+    font-size: xx-large;
+    font-family: system-ui;
+    padding-bottom: 1rem;
 }
 
 
@@ -40,7 +49,7 @@ nav{
 }
 
 .container{
-    padding: 3rem 0;
+    padding: 8rem 0;
 }
 
 .container-spaziatureuniche{
@@ -89,9 +98,32 @@ nav{
 }
 
 .btn-black{
-    background-color: black;
+    background-color: var(--nero-bottoni);
     color: white;
 }
+
+.btn-violet{
+    color: white;
+    background-color: var(--viola-bottoni);
+}
+
+.btn-centre{
+    display:block;
+    margin:0 auto;
+    margin-top: 1rem;
+}
+.style-title-lastbox{
+    font-family: system-ui;
+    font-weight: bold;
+    display: block;
+}
+
+.img-stars{
+    width: 35%;
+    margin-bottom: -1rem;
+}
+
+
 
 .box-piccolo{
     padding: 1rem 0;
@@ -107,7 +139,8 @@ nav{
     display: flex;
     width: 920px;
     margin: auto;
-    height: 400px;
+    align-items: center;
+    
 }
 .reverse{
     flex-direction: row-reverse;
@@ -115,19 +148,25 @@ nav{
 
 .grow-1{
     flex-grow: 1;
-    background-color: rgb(188, 117, 182);
+    background-color:transparent
 }
 .grow-2{
     flex-grow: 2;
-    background-color: rgb(21, 148, 222);
+    background-color: transparent
+}
+
+.titlep-boxcentre{
+    text-align: center;
+    display: block;
+
 }
 
 
 .box-grande{
-    display: flex;
     width: 920px;
     margin: auto;
-    height: 400px;
+    background-color: transparent;
+    
 }
 
 .box-4elementi{
@@ -190,12 +229,10 @@ footer .container.black{
 }
 
 .grigio{
-    background-color: gray;
+    background-color:var(--grigio-box);
 }
 
-.verde{
-    background-color: green;
-}
+
 .black{
     background-color: black;
 }
