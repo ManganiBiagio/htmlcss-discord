@@ -183,23 +183,21 @@ nav{
 .box-4elementi >*{  
     flex-grow: 1;
 }
-.container-footer{
-    border-top: 2px solid white;
-    padding-top: 1rem;
-}
+
 
 .box-footer{
     display: flex;
     width: 920px;
     margin: auto;
-    height: 80px;
-    background-color: aquamarine;
+    border-top: 1px solid var(--viola-bottoni);
+    background-color:transparent;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .box-footer >*{
-    background-color: palevioletred;
+    background-color: transparent;
     padding: .5rem;
 
 }
