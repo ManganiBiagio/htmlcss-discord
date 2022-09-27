@@ -44,13 +44,14 @@ nav{
 }
 
 .container-spaziatureuniche{
-    padding: 1.5rem 0 4rem 0rem;
+    padding: 5rem 0 7rem 0rem;
+    
 }
 
 .jumbo-img{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     
 }
@@ -65,11 +66,11 @@ nav{
 }
 
 .box-piccolo h1{
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .spaziatura-titolo-paragrafo{
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     
     display: block;
 }
