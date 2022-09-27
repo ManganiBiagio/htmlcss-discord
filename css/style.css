@@ -17,6 +17,10 @@ h2{
     padding-bottom: 1rem;
 }
 
+footer{
+    color: white;
+}
+
 
 
 nav{
@@ -155,7 +159,7 @@ nav{
     background-color: transparent
 }
 
-.titlep-boxcentre{
+.block-centre{
     text-align: center;
     display: block;
 
@@ -172,15 +176,13 @@ nav{
 .box-4elementi{
     display: flex;
     
-    background-color: blue;
+    background-color:transparent;
     
 }
 
-.box-4elementi >*{
-    border: 1px solid white;
+.box-4elementi >*{  
     flex-grow: 1;
 }
-
 .container-footer{
     border-top: 2px solid white;
     padding-top: 1rem;
@@ -203,10 +205,38 @@ nav{
 }
 
 footer .container.black{
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 
+
+.txt-left{
+    text-align: left;
+}
+.icons>*{
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.img-ita{
+    display: inline;
+    width: .7rem;
+    padding-top:1rem
+}
+
+.text-link-footer{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8rem;
+}
+.txt-viola{
+    color: var(--viola-bottoni);  
+}
+
+.spaziature-footer>*{
+    padding-bottom: .5rem;
+}
 
 
 
@@ -234,7 +264,7 @@ footer .container.black{
 
 
 .black{
-    background-color: black;
+    background-color: var(--nero-bottoni);
 }
 
 /* ------------------------------------ */
