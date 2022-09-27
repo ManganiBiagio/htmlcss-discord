@@ -9,30 +9,31 @@
 }
 
 
-/* ------------------------------------ */
-/* nav */
+
 nav{
     background-color: var(--celeste-background-color);
     width: 920px;
     margin: auto;
     display: flex;
+    align-items: center;
     padding: .5rem 1rem;
+    
 }
 .container-nav{
     background-color: var(--celeste-background-color);
     padding: 1rem 0 .5rem;
 }
-
-
- nav :nth-child(2){
+.link-container{
     flex-grow: 1;
-    text-align: center;  
- }
+    text-align: center;
+    height: 100%; 
+}
+
 
  nav :nth-child(3){
     text-align: end;
  }
-/* ------------------------------------ */
+
 
 .logo-img{
     width: 5rem;
@@ -42,18 +43,63 @@ nav{
     padding: 3rem 0;
 }
 
+.container-spaziatureuniche{
+    padding: 1.5rem 0 4rem 0rem;
+}
+
 .jumbo-img{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    
+}
+
+.text-link{
+    height: 100%;
+    
+    color: white;
+    text-decoration: none;
+    padding:1rem 1rem;
+    font-size: 0.8rem;
+}
+
+.box-piccolo h1{
+    padding-bottom: 2rem;
+}
+
+.spaziatura-titolo-paragrafo{
+    padding-bottom: 1rem;
+    
+    display: block;
+}
+
+/* BOTTONI */
+.btn{
+    border-radius: 25px;
+    border: 0;
+    padding: .6rem .6rem;
+    
+}
+
+.btn-small{
+    padding: .3rem .5rem;
+    font-size: .6rem;
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
 }
 
 .box-piccolo{
     padding: 1rem 0;
-    background-color: pink;
     width: 800px;
     margin:auto;
-    height: 400px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    
 }
 
 .box{
